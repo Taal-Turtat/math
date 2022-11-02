@@ -3,14 +3,6 @@
 
 /* さいしょうにじょうマシン */
 /* 100個以下のデータの最小二乗法の回帰直線の切片・傾きを求めることができます． */
-double average(int num,int hairetsu[1000], int kosuu) {
-	int kai = 0,i = 0;
-	for (i = 0; i < kosuu; i++) {
-		kai += hairetsu[i];
-	}
-	kai = kai / kosuu;
-	return kai;
-}
 void LS(double x_i[100],double y_i[100], int kosuu) {
 	int i;
 	double sumx = 0, sumy = 0, sumxy = 0, sumx2 = 0,a,b;
