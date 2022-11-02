@@ -19,7 +19,8 @@ void LS(double x_i[100],double y_i[100], int kosuu) {
 int main(void) {
 	double x_i[100] = { 0 }, y_i[100] = { 0 };
 	int a;
-	printf("個数\n");
+	printf("y=ax+b型の回帰曲線の傾き，切片を求めます．\n");
+	printf("データの個数: ");
 	scanf("%d", &a);
 	for (int i = 0; i < a; i++) {
 		printf("%d個めのx:",i+1);
