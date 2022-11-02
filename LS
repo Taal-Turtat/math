@@ -30,4 +30,5 @@ int main(void) {
 	}
 	printf("最小二乗マシン起動!\n");
 	LS(x_i, y_i,a);
+	return0;
 }
