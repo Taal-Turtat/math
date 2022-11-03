@@ -3,6 +3,7 @@
 
 /* さいしょうにじょうマシン */
 /* 100個以下のデータの最小二乗法の回帰直線の切片・傾きを求めることができます． */
+
 void LS(double x_i[100],double y_i[100], int kosuu) {
 	int i;
 	double sumx = 0, sumy = 0, sumxy = 0, sumx2 = 0,a,b;
